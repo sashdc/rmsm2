@@ -1,7 +1,7 @@
 import React from 'react'
 import fax from '../../assets/images/fax.png'
 import stamp from '../../assets/images/stamp.png'
-
+import AboutNav from '../../components/navtabs/AboutNav'
 
 const Landing = () => {
   return (

@@ -1,5 +1,12 @@
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ text-decoration: none; 
+}
+
+a{
+  text-decoration: none;
 }
 
 body{
@@ -7,6 +14,8 @@ body{
   background-image: url('./assets/images/woodback.jpg');
   height: 100vh;
   width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,12 +46,12 @@ body{
 /* animate the logo stamp to fade in and out every 3 seconds */
 @keyframes fade {
   0% {
-    opacity: .3;
+    opacity: .2;
   }
   50% {
     opacity: .5;
   }
   100% {
-    opacity: .3;
+    opacity: .2;
   }
 }

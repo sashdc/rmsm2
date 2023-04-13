@@ -1,0 +1,30 @@
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.nav-container {
+    position: relative; /* set position to relative to make it the reference for the absolute positioned postit and nav-title */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .postit {
+    height: 4rem;
+    width: auto;
+    position: absolute; /* set position to absolute so it can be placed on top of the nav-container */
+
+    /* the rest of the postit styles */
+    -webkit-filter: drop-shadow(5px 15px 15px #0c0c0c)
+    
+  }
+  
+  .nav-title {
+    
+text-align: center;
+font-family: 'Permanent Marker', cursive;
+font-size: 2rem;
+font-weight: bold;
+color: #0c0c0c;
+transform: translate(50%, 20%);
+  }
+  
