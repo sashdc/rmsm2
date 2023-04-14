@@ -1,0 +1,55 @@
+
+.main-container {
+    height: 90vh;
+    position: relative;
+  }
+    
+  .fax-paper {
+    width: 100%;
+    height: 100%;
+    /* shadow to mimic aper on table */
+    -webkit-filter: drop-shadow(5px 15px 15px #0c0c0c)
+  }
+  
+  .logo-stamp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%; /* or any other percentage value that works for your design */
+    /* opacity: .7; */
+    animation: fade 5s infinite;
+  }
+
+  .nav-tab{
+    transition: all 0.2s ease-in-out;
+    rotate: 10deg;
+    z-index: 10;
+  }
+
+.nav-tab:hover{
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-20deg) scale(1.2) translate(0%, 50%);
+}
+
+  .about-nav{
+    position: absolute;
+    top: 2rem;
+    left: -6rem;
+    transform: translate(0%, 0%);
+    max-width: 100%; /* or any other percentage value that works for your design */
+  }
+  
+  /* animate the logo stamp to fade in and out every 3 seconds */
+  @keyframes fade {
+    0% {
+      opacity: .1;
+    }
+    50% {
+      opacity: .4;
+    }
+    100% {
+      opacity: .1;
+    }
+  }
+  

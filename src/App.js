@@ -3,6 +3,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Landing from "./pages/Landing/Landing";
+import Layout from "./pages/Layout/Layout";
 
 function App() {
   return (
@@ -11,8 +12,10 @@ function App() {
 
           <div>
             <Routes>  
-                
-              <Route path="/" element={<Landing />} />
+             <Route path="/"  element={<Layout />}>
+
+              {/* <Route path="/" element={<Landing />} /> */}
+              </Route>
             </Routes>
           </div>
 

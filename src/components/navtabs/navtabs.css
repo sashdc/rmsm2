@@ -14,17 +14,16 @@
     position: absolute; /* set position to absolute so it can be placed on top of the nav-container */
 
     /* the rest of the postit styles */
-    -webkit-filter: drop-shadow(5px 15px 15px #0c0c0c)
+    -webkit-filter: drop-shadow(1px 8px 8px #0c0c0c)
     
   }
   
   .nav-title {
-    
-text-align: center;
+  /* text-align: center; */
 font-family: 'Permanent Marker', cursive;
 font-size: 2rem;
-font-weight: bold;
+/* font-weight: bold; */
 color: #0c0c0c;
-transform: translate(50%, 20%);
+transform: translate(60%, 20%);
   }
   
