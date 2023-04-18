@@ -11,7 +11,7 @@ a{
 
 body{
   /* use local file as background for whole app */
-  background-image: url('./assets/images/woodback.jpg');
+  background-image: url('./assets/images/woodback3.jpg');
   height: 100vh;
   width: 100vw;
   background-size: cover;

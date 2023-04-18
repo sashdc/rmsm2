@@ -3,6 +3,8 @@ import fax from '../../assets/images/fax.png'
 import stamp from '../../assets/images/stamp.png'
 import AboutNav from '../../components/navtabs/AboutNav'
 import PartnersNav from '../../components/navtabs/PartnersNav'
+import ProductsNav from '../../components/navtabs/ProductsNav'
+import ContactNav from '../../components/navtabs/ContactNav'
 import './landing.css'
 import "animate.css";
 
@@ -18,6 +20,13 @@ const Landing = () => {
           <div className="partners-nav nav-tab">
           <PartnersNav />
           </div>
+          <div className='products-nav nav-tab-right'>
+            <ProductsNav />
+          </div>
+          <div className='contact-nav nav-tab-right'>
+            <ContactNav />
+          </div>
+          
     </div>
   )
 }

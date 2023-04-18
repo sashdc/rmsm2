@@ -26,7 +26,7 @@
     position: absolute;
     top: 2rem;
     left: -8em;
-    transform: translate(0%, 0%);
+    /* transform: translate(0%, 0%); */
     max-width: 100%; /* or any other percentage value that works for your design */
   }
   
@@ -34,9 +34,23 @@
     position: absolute;
     top: 28rem;
     left: -8em;
-    transform: translate(0%, 0%);
+    /* transform: translate(0%, 0%); */
     /* max-width: 100%;  */
   }
+
+  .products-nav{
+    position: absolute;
+    top: 5rem;
+    right: 8em;
+    /* transform: translate(0%, 0%); */
+    /* max-width: 100%;  */
+  }
+
+  .contact-nav{
+    position: absolute;
+    top: 28rem;
+    right: 8em;
+   }
   
   
   /* animate the logo stamp to fade in and out every 3 seconds */

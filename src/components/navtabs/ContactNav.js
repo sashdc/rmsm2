@@ -1,5 +1,5 @@
 import React from 'react'
-import tab from '../../../assets/images/tab.png'
+import tab from '../../assets/images/tab.png'
 import { Link } from 'react-router-dom'
 import './navtabs.css'
 
