@@ -6,7 +6,7 @@ import './navtabs.css'
 
 const PartnersNav = () => {
   return (
-    <div>
+    <div className='nav-container nav-tab partners-nav'>
         <Link to='/partners'>
             <img src={tab} className='postit' alt="partners-tab"/>
             <p className='nav-title'>Partners</p>

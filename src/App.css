@@ -19,6 +19,63 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
+
+.page-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+/* 
+.nav-tab{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+
+} */
+
+.about-nav{
+  position: absolute;
+  top: 5rem;
+  left: -50em;
+  /* transform: translate(0%, 0%); */
+  max-width: 100%; 
+  z-index: 10;
+}
+
+.partners-nav{
+  position: absolute;
+  top: 38rem;
+  left: -50em;
+  max-width: 100%; 
+
+  /* transform: translate(0%, 0%); */
+  /* max-width: 100%;  */
+}
+
+.products-nav{
+  position: absolute;
+  top: 5rem;
+  left: 33rem;
+  /* transform: translate(0%, 0%); */
+  /* max-width: 100%;  */
+}
+
+.contact-nav{
+  position: absolute;
+  top: 38rem;
+  left: 33rem;
+  /* max-width: 100%;  */
+
+ }
 
 

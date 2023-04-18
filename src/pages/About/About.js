@@ -5,8 +5,8 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div>
-      <div className="main-container about-section animate__animated animate__fadeInUp  ">
+    <div className="page-container">
+      <div className=" about-section animate__animated animate__fadeIn  ">
         <img src={fax} alt="fax paper" className="fax-paper " />
         <div className="about-text">
         <h1>About</h1>

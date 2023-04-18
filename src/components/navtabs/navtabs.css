@@ -2,11 +2,10 @@
 
   .nav-container {
     position: relative;
-    /* set position to relative to make it the reference for the absolute positioned postit and nav-title */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url('./assets/images/tab.png'); */
+    z-index: 2;
   }
 
   .postit {
@@ -42,15 +41,17 @@
   .nav-tab-right {
     transition: all 0.2s ease-in-out;
     rotate: -5deg;
-    z-index: 10;
+    z-index: 2;
   }
 
   .nav-tab:hover {
     transition: all 0.3s ease-in-out;
-    transform: rotate(-10deg) scale(1.2) translate(0%, 50%);
+    transform: rotate(-10deg) scale(1.2) ;
   }
 
   .nav-tab-right:hover {
     transition: all 0.3s ease-in-out;
-    transform: rotate(10deg) scale(1.2) translate(0%, 0%);
+    transform: rotate(10deg) scale(1.2) ;
   }
+
+  

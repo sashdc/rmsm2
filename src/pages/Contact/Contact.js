@@ -5,8 +5,8 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <div>
-      <div className="main-container contact-section animate__animated animate__fadeInUp  ">
+    <div className="page-container">
+      <div className="maain-container contact-section animate__animated animate__fadeIn">
         <img src={fax} alt="fax paper" className="fax-paper " />
         <div className="contact-text">
         <h1>contact</h1>
