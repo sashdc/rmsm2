@@ -5,7 +5,7 @@ import './navtabs.css'
 
 const ContactNav = () => {
   return (
-    <div>
+    <div className='nav-container nav-tab-right contact-nav'>
         <Link to='/contact'>
             <img src={tab} className='postit' alt="contact-tab"/>
             <p className='nav-title'>contact</p>

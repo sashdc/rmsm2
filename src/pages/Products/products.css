@@ -2,13 +2,13 @@
 .products-section {
     position: absolute;
     display: flex;
-    top: 5%;
-    left: 32%;
+    /* top: 5%;
+    left: 32%; */
     width: auto;
     height: 90vh;
     z-index: 1;
     /* tilt 5 degrees */
-    transform: rotate(-5deg);
+    transform: rotate(-2deg);
     /* add webkit shadow     */
     -webkit-filter: drop-shadow(1px 8px 8px #0c0c0c);
 }

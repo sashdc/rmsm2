@@ -5,8 +5,8 @@ import "./partners.css";
 
 const Partners = () => {
   return (
-    <div>
-      <div className="main-container partners-section animate__animated animate__fadeInUp  ">
+    <div className="page-container">
+      <div className="maain-container partners-section animate__animated animate__fadeIn  ">
         <img src={Legal} alt="legal paper" className="legal-paper " />
         <div className="partners-text">
         <h1>Partners</h1>

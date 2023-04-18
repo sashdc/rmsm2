@@ -2,13 +2,14 @@
 .contact-section {
     position: absolute;
     display: flex;
-    top: 10%;
-    left: 22%;
+    /* top: 10%;
+    left: 22%; */
     width: 100vh;
     height: auto;
     z-index: 1;
     /* tilt 5 degrees */
-    transform: rotate(-5deg);
+    transform: rotate(5deg);
+    max-width: fit-content;
     
 }
 
