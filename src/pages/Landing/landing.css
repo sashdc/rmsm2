@@ -21,24 +21,23 @@
     animation: fade 5s infinite;
   }
 
-  .nav-tab{
-    transition: all 0.2s ease-in-out;
-    rotate: 10deg;
-    z-index: 10;
-  }
-
-.nav-tab:hover{
-    transition: all 0.3s ease-in-out;
-    transform: rotate(-20deg) scale(1.2) translate(0%, 50%);
-}
 
   .about-nav{
     position: absolute;
     top: 2rem;
-    left: -6rem;
+    left: -8em;
     transform: translate(0%, 0%);
     max-width: 100%; /* or any other percentage value that works for your design */
   }
+  
+  .partners-nav{
+    position: absolute;
+    top: 28rem;
+    left: -8em;
+    transform: translate(0%, 0%);
+    /* max-width: 100%;  */
+  }
+  
   
   /* animate the logo stamp to fade in and out every 3 seconds */
   @keyframes fade {

@@ -2,6 +2,7 @@ import React from 'react'
 import fax from '../../assets/images/fax.png'
 import stamp from '../../assets/images/stamp.png'
 import AboutNav from '../../components/navtabs/AboutNav'
+import PartnersNav from '../../components/navtabs/PartnersNav'
 import './landing.css'
 import "animate.css";
 
@@ -13,7 +14,10 @@ const Landing = () => {
         <img src={stamp} alt="logo stamp" className='logo-stamp'/>
         <div className="about-nav nav-tab">
           <AboutNav />
-        </div>
+          </div>
+          <div className="partners-nav nav-tab">
+          <PartnersNav />
+          </div>
     </div>
   )
 }

@@ -5,25 +5,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    z-index: 2;
+
   }
   
   .postit {
     height: 4rem;
     width: auto;
     position: absolute; /* set position to absolute so it can be placed on top of the nav-container */
-
+display: flex;
+justify-content: center;
+align-items: center;
     /* the rest of the postit styles */
     -webkit-filter: drop-shadow(1px 8px 8px #0c0c0c)
     
   }
   
   .nav-title {
-  /* text-align: center; */
-font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
 font-size: 2rem;
 /* font-weight: bold; */
 color: #0c0c0c;
-transform: translate(60%, 20%);
+transform: translate(20%, 10%);
+position: absolute; /* set position to absolute so it can be placed on top of the nav-container */
+
   }
   
+  .nav-tab{
+    transition: all 0.2s ease-in-out;
+    rotate: 10deg;
+    z-index: 10;
+  }
+
+.nav-tab:hover{
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-20deg) scale(1.2) translate(0%, 50%);
+}

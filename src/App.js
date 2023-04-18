@@ -1,24 +1,21 @@
-// import logo from './logo.svg';
-// import wood from './assets/images/woodback.jpg';
-import './App.css';
+
+import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Landing from "./pages/Landing/Landing";
 import Layout from "./pages/Layout/Layout";
+import About from "./pages/About/About";
+import Partners from "./pages/Partners/Partners";
 
 function App() {
   return (
     <>
       <Router>
-
-          <div>
-            <Routes>  
-             <Route path="/"  element={<Layout />}>
-
-              {/* <Route path="/" element={<Landing />} /> */}
-              </Route>
-            </Routes>
-          </div>
-
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            {/* Link to about page */}
+            <Route path="about" element={<About />} />
+            <Route path="partners" element={<Partners />} />
+          </Route>
+        </Routes>
       </Router>
     </>
   );

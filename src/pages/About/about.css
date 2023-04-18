@@ -1,0 +1,25 @@
+/* overlay about-section over current page */
+.about-section {
+    position: absolute;
+    display: flex;
+    top: 10%;
+    left: 22%;
+    width: 100vh;
+    height: auto;
+    z-index: 1;
+    /* tilt 5 degrees */
+    transform: rotate(-5deg);
+    
+}
+
+/* overlay about-text on about-section */
+.about-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(7, 0, 0);
+    text-align: center;
+    z-index: 2;
+}
+
