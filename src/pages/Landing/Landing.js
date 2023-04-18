@@ -11,7 +11,7 @@ import "animate.css";
 
 const Landing = () => {
   return (
-    <div className='main-container animate__animated animate__fadeInUp  '>
+    <div className='main-container animate__animated animate__fadeIn  '>
         <img src={fax} alt="fax paper" className='fax-paper '/>
         <img src={stamp} alt="logo stamp" className='logo-stamp'/>
         <div className="about-nav nav-tab">
