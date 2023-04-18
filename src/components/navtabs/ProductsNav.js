@@ -1,5 +1,5 @@
 import React from 'react'
-import tab from '../../../assets/images/tab.png'
+import tab from '../../assets/images/tab.png'
 import { Link } from 'react-router-dom'
 import './navtabs.css'
 
@@ -7,9 +7,9 @@ import './navtabs.css'
 const ProductsNav = () => {
   return (
     <div>
-        <Link to='/poducts'>
-            <img src={tab} className='postit' alt="poducts-tab"/>
-            <p className='nav-title'>poducts</p>
+        <Link to='/products'>
+            <img src={tab} className='postit' alt="products-tab"/>
+            <p className='nav-title'>products</p>
         </Link>
     </div>
   )

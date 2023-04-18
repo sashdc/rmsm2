@@ -1,5 +1,5 @@
-/* overlay partners-section over current page */
-.partners-section {
+/* overlay products-section over current page */
+.products-section {
     position: absolute;
     display: flex;
     top: 5%;
@@ -13,8 +13,8 @@
     -webkit-filter: drop-shadow(1px 8px 8px #0c0c0c);
 }
 
-/* overlay partners-text on partners-section */
-.partners-text {
+/* overlay products-text on products-section */
+.products-text {
     position: absolute;
     top: 50%;
     left: 50%;
