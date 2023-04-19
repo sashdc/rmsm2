@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="contact-text">
         <h1>contact</h1>
         </div>
-        <img src={stamp} alt="logo stamp" className="logo-stamp" />
+        <img src={stamp} alt="logo stamp" className="page-logo-stamp" />
       </div>
     </div>
   );

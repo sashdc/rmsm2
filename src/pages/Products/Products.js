@@ -11,7 +11,7 @@ const Products = () => {
         <div className="products-text">
         <h1>Products</h1>
         </div>
-        <img src={stamp} alt="logo stamp" className="logo-stamp" />
+        <img src={stamp} alt="logo stamp" className="page-logo-stamp" />
       </div>
     </div>
   );

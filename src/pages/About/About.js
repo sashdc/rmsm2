@@ -46,7 +46,7 @@ const About = () => {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <img src={stamp} alt="logo stamp" className="logo-stamp" />
+        <img src={stamp} alt="logo stamp" className="page-logo-stamp" />
       </div>
     </div>
   );
