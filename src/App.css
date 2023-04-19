@@ -48,7 +48,7 @@ body{
 .about-nav{
   position: absolute;
   top: 5rem;
-  left: -52em;
+  left: -50rem;
   /* transform: translate(0%, 0%); */
   max-width: 100%; 
   z-index: 10;
@@ -57,7 +57,7 @@ body{
 .partners-nav{
   position: absolute;
   top: 15rem;
-  left: -52em;
+  left: -50rem;
   max-width: 100%; 
 
   /* transform: translate(0%, 0%); */
@@ -67,7 +67,7 @@ body{
 .products-nav{
   position: absolute;
   top: 25rem;
-  left: -52em;
+  left: -50rem;
   /* transform: translate(0%, 0%); */
   /* max-width: 100%;  */
 }
@@ -75,7 +75,7 @@ body{
 .contact-nav{
   position: absolute;
   top: 35rem;
-  left: -52em;
+  left: -50rem;
   /* max-width: 100%;  */
  }
 
