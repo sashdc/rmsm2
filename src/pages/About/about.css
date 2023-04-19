@@ -22,7 +22,7 @@
     text-align: center;
     z-index: 5;
     font-size: 100%;
-    background: rgba(240, 239, 239, 0.6) ;
+    /* background: rgba(240, 239, 239, 0.6) ; */
     border-radius: 14px;
 }
 
@@ -34,8 +34,8 @@
     .about1{
         position: absolute;
         width: 20%;
-        top: 10%;
-        left: -10%;
+        top: -5%;
+        left: 5%;
         rotate: -10deg;
         /* transform: translate(-50%, -50%); */
         -webkit-filter: drop-shadow(1px 6px 4px #0c0c0c);
