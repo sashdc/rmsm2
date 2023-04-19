@@ -1,6 +1,9 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
+
 /* overlay about-section over current page */
 .about-section {
     position: absolute;
+    font-family: 'Fira Mono', monospace;
     display: flex;
     /* top: 10%;
     left: 20%; */
@@ -13,7 +16,7 @@
 }
 
 /* overlay about-text on about-section */
-.about-text {
+.about-body {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -21,5 +24,53 @@
     color: rgb(7, 0, 0);
     text-align: center;
     z-index: 2;
+    font-size: large;
+    background: rgba(204, 204, 204, 0.4) ;
+    border-radius: 14px;
 }
 
+.about-text{
+    margin-top: .5rem;
+    }
+
+    .about1{
+        position: absolute;
+        width: 13%;
+        top: 25%;
+        left: 15%;
+        rotate: -10deg;
+        /* transform: translate(-50%, -50%); */
+        -webkit-filter: drop-shadow(1px 6px 4px #0c0c0c);
+        transition: .3s ease-in-out;
+        z-index: 200;
+    }
+
+    .about1:hover{
+        -webkit-filter: drop-shadow(1px 6px 14px #0c0c0c);
+        scale: 2;
+        transition: .3s ease-in-out;
+        rotate: 0deg;
+        transform: translate(35%, 15%);
+        z-index: 200;
+    }
+
+    .about2{
+        position: absolute;
+        width: 13%;
+        bottom: 10%;
+        right: 20%;
+        z-index: 10;
+        rotate: 10deg;
+        /* transform: translate(-50%, -50%); */
+        -webkit-filter: drop-shadow(1px 6px 4px #0c0c0c);
+        transition: .3s ease-in-out;
+    }
+
+    .about2:hover{
+        -webkit-filter: drop-shadow(1px 6px 14px #0c0c0c);
+        scale: 2;
+        transition: .3s ease-in-out;
+        rotate: 0deg;
+        transform: translate(-45%, -20%);
+        z-index: 250;
+    }

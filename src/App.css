@@ -32,6 +32,7 @@ body{
   justify-content: center;
   align-items: center;
   z-index: 1;
+  max-width: 100%;
 }
 /* 
 .nav-tab{
@@ -65,7 +66,7 @@ body{
 .products-nav{
   position: absolute;
   top: 5rem;
-  left: 33rem;
+  left: 36rem;
   /* transform: translate(0%, 0%); */
   /* max-width: 100%;  */
 }
@@ -73,7 +74,7 @@ body{
 .contact-nav{
   position: absolute;
   top: 38rem;
-  left: 33rem;
+  left: 36rem;
   /* max-width: 100%;  */
 
  }
