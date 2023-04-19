@@ -1,48 +1,46 @@
   @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
 
 /* overlay about-section over current page */
-.about-section {
+.about-page {
     font-family: 'Fira Mono', monospace;
+    position: relative;
     display: flex;
-
     width: 100vh;
     height: auto;
     z-index: 1;
-    transform: rotate(-5deg);
-    
-}
+    transform: rotate(-3deg);
+    }
 
 /* overlay about-text on about-section */
 .about-body {
-    position: fixed;
-    width: 60%;
-    max-width: 90%;
-    /* height: auto; */
+    position: absolute;
+    width: 70%;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(7, 0, 0);
     text-align: center;
-    z-index: 2;
-    font-size: 1.1em;
-    background: rgba(240, 239, 239, 0.4) ;
+    z-index: 5;
+    font-size: 100%;
+    background: rgba(240, 239, 239, 0.6) ;
     border-radius: 14px;
 }
 
 .about-text{
     margin-top: 2rem;
-    }
+
+}
 
     .about1{
         position: absolute;
-        width: 30%;
+        width: 20%;
         top: 10%;
-        left: -40%;
+        left: -10%;
         rotate: -10deg;
         /* transform: translate(-50%, -50%); */
         -webkit-filter: drop-shadow(1px 6px 4px #0c0c0c);
         transition: .3s ease-in-out;
-        z-index: 200;
+        z-index: 4;
     }
 
     .about1:hover{
@@ -56,9 +54,9 @@
 
     .about2{
         position: absolute;
-        width: 30%;
-        bottom: -30%;
-        right: -30%;
+        width: 20%;
+        bottom: -5%;
+        right: 5%;
         z-index: 10;
         rotate: 10deg;
         /* transform: translate(-50%, -50%); */

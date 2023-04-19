@@ -1,7 +1,12 @@
 
 .main-container {
-    height: 90vh;
+    height: 97vh;
+
     position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
     
   .fax-paper {
@@ -34,4 +39,6 @@
       opacity: .1;
     }
   }
+
+  
   

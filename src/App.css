@@ -15,7 +15,7 @@ body{
   height: 100vh;
   width: 100vw;
   background-size: cover;
-  background-repeat: repeat;
+  /* background-repeat: repeat; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,14 +26,14 @@ body{
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex: 1;
+  /* flex: 1; */
   position: absolute;
   top: 0%;
   left: 0%;
   justify-content: center;
   align-items: center;
   z-index: 1;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 /* 
 .nav-tab{
@@ -77,17 +77,15 @@ body{
   top: 38rem;
   left: 36rem;
   /* max-width: 100%;  */
-
  }
 
-   
- .page-logo-stamp {
+    .page-logo-stamp {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-5deg);
   max-width: 70%; 
-  opacity: .2;
+  opacity: .1;
 }
 
 
