@@ -10,13 +10,14 @@ import "./about.css";
 const About = () => {
   return (
     <div className="page-container animate__animated animate__fadeIn">
-     <img src={about1} alt="about1" className="about-picture about1" />
-        <img src={about2} alt="about1" className="about-picture about2" />  
+     
       <div className=" about-section   ">
         <img src={fax} alt="fax paper" className="fax-paper " />
           
 
         <div className="about-body">
+        <img src={about1} alt="about1" className="about-picture about1" />
+        <img src={about2} alt="about1" className="about-picture about2" />  
           <h1>About</h1>
           <p className="about-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
