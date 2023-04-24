@@ -1,7 +1,6 @@
 
 .main-container {
-    height: 97vh;
-
+    height: 96vh;
     position: relative;
     
     display: flex;
@@ -20,12 +19,18 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 100%; /* or any other percentage value that works for your design */
-    /* opacity: .7; */
+    max-width: 100%; 
     animation: fade 5s infinite;
   }
 
-
+/* .nav-tabs{
+    position: absolute;
+    top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 250;
+} */
   
   /* animate the logo stamp to fade in and out every 3 seconds */
   @keyframes fade {

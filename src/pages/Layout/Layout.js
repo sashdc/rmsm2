@@ -4,6 +4,7 @@ import AboutNav from "../../components/navtabs/AboutNav";
 import ContactNav from "../../components/navtabs/ContactNav";
 import PartnersNav from "../../components/navtabs/PartnersNav";
 import ProductsNav from "../../components/navtabs/ProductsNav";
+import HomeNav from "../../components/navtabs/HomeNav";
 
 
 const Layout = () => {
@@ -13,6 +14,7 @@ const Layout = () => {
       <ContactNav />
       <PartnersNav />
       <ProductsNav />
+      <HomeNav />
       <Landing />
       <Outlet />
     </>

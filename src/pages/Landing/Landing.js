@@ -14,18 +14,12 @@ const Landing = () => {
     <div className='main-container animate__animated animate__fadeIn  '>
         <img src={fax} alt="fax paper" className='fax-paper '/>
         <img src={stamp} alt="logo stamp" className='logo-stamp'/>
-        {/* <div className="about-nav nav-tab">
+        {/* <div className='nav-tabs'>
           <AboutNav />
-          </div>
-          <div className="partners-nav nav-tab">
-          <PartnersNav />
-          </div>
-          <div className='products-nav nav-tab-right'>
-            <ProductsNav />
-          </div>
-          <div className='contact-nav nav-tab-right'>
-            <ContactNav />
-          </div> */}
+      <ContactNav />
+      <PartnersNav />
+      <ProductsNav />
+      </div> */}
           
     </div>
   )
