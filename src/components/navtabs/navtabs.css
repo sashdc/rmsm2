@@ -1,52 +1,50 @@
-  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-  .nav-container {
-    /* position: relative; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-/* make tabs responsive */
+.nav-container {
+  display: flex;
+  z-index: 2;
+}
 
+.postit {
+  height: 4rem;
+  width: auto;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* -webkit-filter: drop-shadow(1px 6px 8px #0c0c0c); */
+}
 
-  }
+.nav-title {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+  color: #0c0c0c;
+  transform: translate(35%, 10%);
+  position: absolute;
+}
 
+.nav-tab {
+  transition: all 0.2s ease-in-out;
+  rotate: 5deg;
+  z-index: 10;
+  -webkit-filter: drop-shadow(1px 6px 6px #0c0c0c);
+  width: 10%;
+}
+
+.nav-tab:hover {
+  transition: all 0.3s ease-in-out;
+  transform: rotate(-6deg) scale(1.1);
+  -webkit-filter: drop-shadow(1px 6px 20px #1b1b1b);
+}
+
+@media only screen and (max-width: 1200px) {
   .postit {
-    height: 4rem;
-    width: auto;
-    position: absolute;
-    /* set position to absolute so it can be placed on top of the nav-container */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* the rest of the postit styles */
-    /* -webkit-filter: drop-shadow(1px 6px 8px #0c0c0c) */
+    height: 2.2rem;
   }
-
   .nav-title {
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 2rem;
-    /* font-weight: bold; */
-    color: #0c0c0c;
-    transform: translate(35%, 10%);
-    /* position: absolute; */
-    /* set position to absolute so it can be placed on top of the nav-container */
+    font-size: 1.2rem;
 
   }
 
-  .nav-tab {
-    transition: all 0.2s ease-in-out;
-    rotate: 5deg;
-    z-index: 10;
-    -webkit-filter: drop-shadow(1px 6px 6px #0c0c0c);
-    width: 10%;
-  }
-
-
-  .nav-tab:hover {
-    transition: all 0.3s ease-in-out;
-    transform: rotate(-6deg) scale(1.1) ;
-    -webkit-filter: drop-shadow(1px 6px 30px #0c0c0c)
-
-  }
+}

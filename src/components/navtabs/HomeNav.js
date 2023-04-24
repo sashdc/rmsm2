@@ -8,7 +8,7 @@ const HomeNav = () => {
   return (
     <div className='nav-container nav-tab home-nav'>
         <Link to='/'>
-            <img src={tab} className='postit' alt="about-tab"/>
+            <img src={tab} className='postit' alt="home-tab"/>
             <p className='nav-title'>Home</p>
         </Link>
     </div>

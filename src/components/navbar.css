@@ -6,22 +6,25 @@
     align-items: center;
     /* overflow: hidden; */
     position: absolute;
-    width: 20%;
+    width: fit-content;
     height: 60vh;
     top: 5%;
-    left: -5%;
+    left: 2%;
     z-index: 22;
     }
 
 
 /* make navtabs horizontal and across top of screen for smaller screens */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .nav-bar{
         flex-direction: row;
-        width: 80%;
+        width: 90%;
         height: 10vh;
         top: 0%;
-        left: 2%;
+        left: 0%;
         z-index: 22;
+        justify-content: space-around;
+
     }
+    
 }

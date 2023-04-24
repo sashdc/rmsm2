@@ -49,7 +49,7 @@ body{
 }
 
 .page-logo-stamp:hover{
-  opacity: .4;
+  rotate: 2deg;
   transition: 1s ease-in-out;
 
 }
