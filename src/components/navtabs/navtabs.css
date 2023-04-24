@@ -1,11 +1,14 @@
   @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
   .nav-container {
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
+/* make tabs responsive */
+
+
   }
 
   .postit {
@@ -26,8 +29,8 @@
     font-size: 2rem;
     /* font-weight: bold; */
     color: #0c0c0c;
-    transform: translate(30%, 10%);
-    position: absolute;
+    transform: translate(35%, 10%);
+    /* position: absolute; */
     /* set position to absolute so it can be placed on top of the nav-container */
 
   }
@@ -36,17 +39,10 @@
     transition: all 0.2s ease-in-out;
     rotate: 5deg;
     z-index: 10;
-    -webkit-filter: drop-shadow(1px 6px 6px #0c0c0c)
-
+    -webkit-filter: drop-shadow(1px 6px 6px #0c0c0c);
+    width: 10%;
   }
 
-  /* .nav-tab-right {
-    transition: all 0.2s ease-in-out;
-    rotate: -5deg;
-    z-index: 2;
-    -webkit-filter: drop-shadow(1px 6px 6px #0c0c0c)
-
-  } */
 
   .nav-tab:hover {
     transition: all 0.3s ease-in-out;
@@ -54,12 +50,3 @@
     -webkit-filter: drop-shadow(1px 6px 30px #0c0c0c)
 
   }
-/* 
-  .nav-tab-right:hover {
-    transition: all 0.3s ease-in-out;
-    transform: rotate(6deg) scale(1.1) ;
-    -webkit-filter: drop-shadow(1px 6px 30px #0c0c0c)
-
-  } */
-
-  
