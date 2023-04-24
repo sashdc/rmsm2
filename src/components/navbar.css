@@ -1,0 +1,30 @@
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* distribute items evenly */
+    align-items: center;
+    /* overflow: hidden; */
+    position: absolute;
+    width: fit-content;
+    height: 60vh;
+    top: 5%;
+    left: 2%;
+    z-index: 22;
+    }
+
+
+/* make navtabs horizontal and across top of screen for smaller screens */
+@media only screen and (max-width: 1200px) {
+    .nav-bar{
+        flex-direction: row;
+        width: 90%;
+        height: 10vh;
+        top: 0%;
+        left: 0%;
+        z-index: 22;
+        justify-content: space-around;
+
+    }
+    
+}
