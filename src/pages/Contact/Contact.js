@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import fax from "../../assets/images/fax.png";
-import stamp from "../../assets/images/stamp.png";
+import stamp from "../../assets/images/rubberstamp.png";
 import "./contact.css";
 // import bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -43,7 +43,7 @@ const Contact = () => {
               <div >
                 <div >
                   {/* contact details */}
-                  <h5 >Contact Us</h5>                  
+                  <h4 >Contact Us</h4>                  
                   <p className="card-text">
                     P.O. Box 4116, Dubai, United Arab Emirates
                     <i class="fa-solid fa-user"></i>

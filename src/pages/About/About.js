@@ -1,6 +1,6 @@
 import React from "react";
 import fax from "../../assets/images/fax.png";
-import stamp from "../../assets/images/stamp.png";
+import stamp from "../../assets/images/rubberstamp.png";
 import about1 from "../../assets/images/polaroid1.png";
 import about2 from "../../assets/images/polaroid2.png";
 

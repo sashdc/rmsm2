@@ -1,6 +1,6 @@
 import React from "react";
 import Legal from "../../assets/images/legal.png";
-import stamp from "../../assets/images/stamp.png";
+import stamp from "../../assets/images/rubberstamp.png";
 import "./products.css";
 
 const Products = () => {
