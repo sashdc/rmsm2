@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
+
+
 /* overlay about-section over current page */
 .contact-section {
+ 
     position: absolute;
     display: flex;
     /* top: 10%;
@@ -8,10 +12,11 @@
     height: auto;
     z-index: 1;
     /* tilt 5 degrees */
-    transform: rotate(5deg);
+    transform: rotate(2deg);
     max-width: fit-content;
     
 }
+
 
 /* overlay contact-text on contact-section */
 .contact-text {
@@ -23,4 +28,41 @@
     text-align: center;
     z-index: 2;
 }
+
+.contact{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+   font-family: 'Fira Mono', monospace;
+    font-weight: bolder;
+}
+
+.contact-info{
+    /* width: 100%; */
+    margin: 1rem;
+}
+
+.contact-form{
+    /* width: 55rem; */
+    height: 40vh;
+}
+
+    @media (max-width: 1200px) {
+        .contact-info{
+            width: 100%;
+            margin: 0px;
+        }
+        .contact{
+            /* flex-direction: column; */
+            margin: auto;
+            /* padding-bottom: 150px; */
+
+        }
+        .contact-form{
+            width: 100%;
+        }
+
+    }
+
 

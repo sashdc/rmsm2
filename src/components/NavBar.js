@@ -11,9 +11,9 @@ const NavBar = () => {
   return (
     <div className='nav-bar'>
         <AboutNav />
-        <ContactNav />
-        <PartnersNav />
+                <PartnersNav />
         <ProductsNav />
+        <ContactNav />
         <HomeNav />
     </div>
   )
