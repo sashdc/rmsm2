@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
+
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -34,21 +37,18 @@ body{
   /* max-width: 100%; */
 }
 
-
-
-
   .page-logo-stamp {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-5deg);
+  top: 30%;
+  left: 15%;
+  /* transform: rotate(-5deg); */
   max-width: 70%; 
   opacity: .1;
   transition: 1s ease-in-out;
 }
 
 .page-logo-stamp:hover{
-  rotate: 2deg;
+-webkit-transform: rotate(5deg);
   transition: 1s ease-in-out;
 
 }

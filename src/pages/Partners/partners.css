@@ -1,5 +1,7 @@
 /* overlay partners-section over current page */
 .partners-section {
+    font-family: 'Fira Mono', monospace;
+
     position: absolute;
     display: flex;
     /* top: 5%;
@@ -16,11 +18,30 @@
 /* overlay partners-text on partners-section */
 .partners-text {
     position: absolute;
-    top: 50%;
+    margin-top: 4rem;    
+/* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     color: rgb(7, 0, 0);
     text-align: center;
     z-index: 2;
 }
+
+.partner-logo{
+    width: 70%;
+    opacity: .7;
+    transition: .2s ease-in-out;
+    z-index: 22;
+   }
+
+   .partner-logo:hover{
+    /* width: 100%; */
+    opacity: 1;
+    scale: 1.1;
+    box-shadow: 0px 5px 15px #0c0c0c;
+    -webkit-transform: rotate(-2deg);
+    transition: .5s ease-in-out;
+    /* height: 100%; */
+    z-index: 24;
+   }
 
