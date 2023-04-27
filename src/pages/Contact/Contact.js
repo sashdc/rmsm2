@@ -34,9 +34,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="page-container">
-      <div className="main-container contact-section animate__animated animate__fadeIn">
-        <img src={fax} alt="fax paper" className="fax-paper " />
+    <div className="page-container animate__animated animate__rotateInDownRight">
+      <div className="main-container contact-section ">
+        <img src={fax} alt="fax paper" className="about-fax-paper " />
         <div className="contact-text">
           <div className=" contact">
             <div className="contact-info ">

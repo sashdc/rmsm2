@@ -9,16 +9,16 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="page-container animate__animated animate__fadeIn">
+    <div className="page-container animate__animated animate__rotateInDownLeft">
      
-      <div className=" about-page">
-        <img src={fax} alt="fax paper" className="fax-paper " />
+      <div className="about-page">
+        <img src={fax} alt="fax paper" className="about-fax-paper " />
         <img src={about1} alt="about1" className="about-picture about1" />
         <img src={about2} alt="about1" className="about-picture about2" />  
 
         <div className="about-body">
        
-          <h1>About</h1>
+          <h1>About RMSM</h1>
           <p className="about-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

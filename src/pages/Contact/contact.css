@@ -20,6 +20,7 @@
 
 /* overlay contact-text on contact-section */
 .contact-text {
+    
     position: absolute;
     top: 50%;
     left: 50%;

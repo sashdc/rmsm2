@@ -16,32 +16,32 @@
   
   .logo-stamp {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    /* top: 50%; */
+    /* left: 50%; */
     transform: translate(-50%, -50%);
     max-width: 100%; 
-    animation: fade 5s infinite;
+    animation: fade 8s infinite;
   }
 
-/* .nav-tabs{
-    position: absolute;
-    top: 0rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 250;
-} */
+
   
   /* animate the logo stamp to fade in and out every 3 seconds */
   @keyframes fade {
     0% {
-      opacity: .1;
+      opacity: .6;
+      -webkit-transform: rotate(-10deg);
+
     }
     50% {
-      opacity: .4;
+      opacity: .8;
+      -webkit-transform: rotate(10deg);
+      -webkit-filter: drop-shadow(1px 25px 10px #0c0c0c)
+
     }
     100% {
-      opacity: .1;
+      opacity: .6;
+      -webkit-transform: rotate(-10deg);
+
     }
   }
 
