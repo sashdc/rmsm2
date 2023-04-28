@@ -1,6 +1,8 @@
 /* overlay products-section over current page */
 .products-section {
     position: absolute;
+    font-family: 'Fira Mono', monospace;
+
     display: flex;
     /* top: 5%;
     left: 32%; */
@@ -16,11 +18,39 @@
 /* overlay products-text on products-section */
 .products-text {
     position: absolute;
-    top: 50%;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     color: rgb(7, 0, 0);
     text-align: center;
     z-index: 2;
+    margin-top: 2rem;    
+
 }
+
+.product-image{
+    width: 35%;
+    opacity: .8;
+    transition: .2s ease-in-out;
+    z-index: 22;
+    margin-right: 1rem;
+}
+
+.product-image:hover{
+    /* width: 100%; */
+    opacity: 1;
+    scale: 1.4;
+    box-shadow: 0px 5px 15px #0c0c0c;
+    -webkit-transform: rotate(2deg);
+    transition: .5s ease-in-out;
+    /* height: 100%; */
+    z-index: 24;
+   }
+
+   .product-tile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+   }
 

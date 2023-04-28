@@ -33,9 +33,9 @@
 
     }
     50% {
-      opacity: .8;
+      opacity: .9;
       -webkit-transform: rotate(10deg);
-      -webkit-filter: drop-shadow(1px 25px 10px #0c0c0c)
+      -webkit-filter: drop-shadow(0px 25px 10px #0c0c0c)
 
     }
     100% {
