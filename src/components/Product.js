@@ -11,6 +11,7 @@ export default function Product(props) {
 
             <img
               src={props.img}
+              title={props.name}
               alt={props.name}
               className="product-image rounded "
             />
