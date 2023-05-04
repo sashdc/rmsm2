@@ -1,30 +1,39 @@
-/* overlay partners-section over current page */
-.partners-section {
-    font-family: 'Fira Mono', monospace;
-
-    position: absolute;
-    display: flex;
-    /* top: 5%;
-    left: 32%; */
-    width: auto;
+.legal-paper  {
     height: 90vh;
+    width: auto;
+
+    -webkit-filter: drop-shadow(5px 15px 25px #0c0c0c)
+  
+}
+
+
+/* overlay partners-section over current page */
+.partners-page {
+    font-family: 'Fira Mono', monospace;
+    position: relative;
+    display: flex;
+    /* width: 100vh; */
+    height: auto;
     z-index: 1;
-    /* tilt 5 degrees */
     transform: rotate(2deg);
-    /* add webkit shadow     */
-    -webkit-filter: drop-shadow(1px 8px 8px #0c0c0c);
+
 }
 
 /* overlay partners-text on partners-section */
-.partners-text {
+.partners-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    margin-top: 4rem;    
-/* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    width: 100%;
+    top: 8%;
+    left: 0%;
     color: rgb(7, 0, 0);
     text-align: center;
-    z-index: 2;
+    z-index: 5;
+    /* margin-top: 2rem; */
+   
 }
 
 .partner-logo{
@@ -45,3 +54,12 @@
     z-index: 24;
    }
    
+   @media only screen and (max-width: 650px) {
+    .legal-paper  {
+        height: 80vh;
+        width: 90vw;
+    
+        -webkit-filter: drop-shadow(5px 15px 25px #0c0c0c)
+      
+    }
+   }

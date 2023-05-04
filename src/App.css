@@ -39,21 +39,11 @@ body{
 
   .page-logo-stamp {
   position: absolute;
-  top: 30%;
-  left: 15%;
+  top: 24%;
+  left: 10%;
   /* transform: rotate(-5deg); */
-  max-width: 70%; 
+  max-width: 60%; 
   opacity: .1;
   transition: 1s ease-in-out;
 }
 
-.page-logo-stamp:hover{
--webkit-transform: rotate(5deg);
-  transition: 1s ease-in-out;
-
-}
-
-/* move all nav-tabs to top of screen for smaller screens */
-@media only screen and (max-width: 1000px) {
-
-}

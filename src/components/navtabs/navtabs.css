@@ -48,3 +48,16 @@
   }
 
 }
+
+@media only screen and (max-width: 600px) {
+  .postit {
+    height: 1.5rem;
+    width: 4rem;
+  }
+  .nav-title {
+    font-size: .8rem;
+    transform: translate(5%, 10%);
+
+  }
+
+}
