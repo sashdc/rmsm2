@@ -1,103 +1,151 @@
   @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
 
-.about-fax-paper {
-        width: 100%;
-        -webkit-filter: drop-shadow(5px 15px 25px #0c0c0c)
+  .about-fax-paper {
+      width: 100%;
+      -webkit-filter: drop-shadow(5px 15px 25px #0c0c0c)
+  }
+
+  /* overlay about-section over current page */
+  .about-page {
+      font-family: 'Fira Mono', monospace;
+      position: relative;
+      display: flex;
+      width: 100vh;
+      /* height: auto; */
+      z-index: 1;
+      transform: rotate(-3deg);
+  }
+
+  /* overlay about-text on about-section */
+  .about-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 87%;
+      height: 100%;
+      /* max-height: 90%; */
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(7, 0, 0);
+      text-align: center;
+      z-index: 5;
+      /* font-size: 100%; */
+      /* background: rgba(240, 239, 239, 0.6) ; */
+      border-radius: 14px;
+
+ }
+
+  .about-text {
+      margin-top: 1rem;
+      font-size: 1vw;
+  }
+
+  .about1 {
+      position: absolute;
+      width: 20%;
+      top: -15%;
+      left: 5%;
+      rotate: -10deg;
+      /* transform: translate(-50%, -50%); */
+      -webkit-filter: drop-shadow(1px 6px 4px #0c0c0c);
+      transition: .3s ease-in-out;
+      z-index: 4;
+  }
+
+  .about1:hover {
+      -webkit-filter: drop-shadow(1px 6px 14px #0c0c0c);
+      scale: 1.5;
+      transition: .3s ease-in-out;
+      rotate: 5deg;
+      transform: translate(40%, 10%);
+      z-index: 200;
+  }
+
+  .about2 {
+      position: absolute;
+      width: 20%;
+      bottom: -10%;
+      right: 10%;
+      z-index: 10;
+      rotate: 10deg;
+      /* transform: translate(-50%, -50%); */
+      -webkit-filter: drop-shadow(1px 6px 4px #0c0c0c);
+      transition: .3s ease-in-out;
+  }
+
+  .about2:hover {
+      -webkit-filter: drop-shadow(1px 6px 14px #0c0c0c);
+      scale: 1.5;
+      transition: .3s ease-in-out;
+      rotate: 5deg;
+      transform: translate(-45%, -20%);
+      z-index: 250;
+  }
+
+  @media only screen and (max-width: 1200px) {
+      .about-body {
+          /* position: absolute; */
+          width: 80%;
+          height: 100%;
+      }
+
+      .about-text {
+          /* margin-top: 2rem; */
+          font-size: 1.4vh;
+      }
+
+      .about-fax-paper {
+          /* width: 100%; */
+          height: 70vh;
+          /* -webkit-filter: drop-shadow(5px 15px 25px #0c0c0c) */
+
+      }
+  }
+
+  @media only screen and (max-width: 800px) {
+      .about-body {
+          /* position: absolute; */
+          /* width: 60%; */
+          height: 100%;
+      }
+
+      .about-text {
+          /* margin-top: 2rem; */
+          font-size: 2vw;
+      }
+
+      .about-fax-paper {
+          /* width: 100%; */
+          height: 70vh;
+          /* -webkit-filter: drop-shadow(5px 15px 25px #0c0c0c) */
+      }
+     
       
-}
-
-/* overlay about-section over current page */
-.about-page {
-    font-family: 'Fira Mono', monospace;
-    position: relative;
-    display: flex;
-    width: 100vh;
-    /* height: auto; */
-    z-index: 1;
-    transform: rotate(-3deg);
-    }
-
-/* overlay about-text on about-section */
-.about-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 70%;
-    /* max-height: 90%; */
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(7, 0, 0);
-    text-align: center;
-    z-index: 5;
-    /* font-size: 100%; */
-    /* background: rgba(240, 239, 239, 0.6) ; */
-    border-radius: 14px;
-}
-
-.about-text{
-    margin-top: 1rem;
-    font-size: 1vw;
-}
-
-    .about1{
-        position: absolute;
-        width: 20%;
-        top: -15%;
-        left: 5%;
-        rotate: -10deg;
-        /* transform: translate(-50%, -50%); */
-        -webkit-filter: drop-shadow(1px 6px 4px #0c0c0c);
-        transition: .3s ease-in-out;
-        z-index: 4;
-    }
-
-    .about1:hover{
-        -webkit-filter: drop-shadow(1px 6px 14px #0c0c0c);
-        scale: 1.5;
-        transition: .3s ease-in-out;
-        rotate: 5deg;
-        transform: translate(40%, 10%);
-        z-index: 200;
-    }
-
-    .about2{
-        position: absolute;
-        width: 20%;
-        bottom: -10%;
-        right: 10%;
-        z-index: 10;
-        rotate: 10deg;
-        /* transform: translate(-50%, -50%); */
-        -webkit-filter: drop-shadow(1px 6px 4px #0c0c0c);
-        transition: .3s ease-in-out;
-    }
-
-    .about2:hover{
-        -webkit-filter: drop-shadow(1px 6px 14px #0c0c0c);
-        scale: 1.5;
-        transition: .3s ease-in-out;
-        rotate: 5deg;
-        transform: translate(-45%, -20%);
-        z-index: 250;
-    }
-
-@media only screen and (max-width: 1200px) {
-    .about-body {
-        /* position: absolute; */
-        width: 60%;
-        height: 100vh;
-    }
-    .about-text{
+  }
+  @media only screen and (max-width: 650px) {
+    .about-text {
         /* margin-top: 2rem; */
-        font-size: 1vw;
+        font-size: 2.5vw;
     }
-    .about-fax-paper {
-        /* width: 100%; */
-        height: 60vh;
-        -webkit-filter: drop-shadow(5px 15px 25px #0c0c0c)
-      
-}
+    .about1 {
+        width: 22%;
+          top: -5%;
+          left: 5%;
+          z-index: 22;
+      }
+      .about2{
+        width: 22%;
+
+        bottom: -2%;
+      }
+    }
+
+  @media only screen and (max-width: 400px) {
+    .about-text {
+        /* margin-top: 2rem; */
+        font-size: 3vw;
+    }
 }

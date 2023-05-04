@@ -8,9 +8,9 @@ import { partnerData } from "../partnerdata/partnerData";
 const Partners = () => {
   return (
     <div className="page-container animate__animated animate__rotateInDownRight">
-      <div className="maain-container partners-section   ">
+      <div className=" partners-page">
         <img src={Legal} alt="legal paper" className="legal-paper " />
-        <div className="partners-text">
+        <div className="partners-body">
         <h1>Partners</h1>
         <div className="partners  w-100">
           {partnerData.map((partner) => (

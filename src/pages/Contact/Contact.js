@@ -35,9 +35,9 @@ const Contact = () => {
 
   return (
     <div className="page-container animate__animated animate__rotateInDownRight">
-      <div className="main-container contact-section ">
-        <img src={fax} alt="fax paper" className="about-fax-paper " />
-        <div className="contact-text">
+      <div className=" contact-page ">
+        <img src={fax} alt="fax paper" className="contact-fax-paper " />
+        <div className="contact-body">
           <div className=" contact">
             <div className="contact-info ">
               <div >

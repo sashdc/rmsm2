@@ -9,9 +9,9 @@ import Product from "../../components/Product";
 const Products = () => {
   return (
     <div className="page-container animate__animated animate__rotateInDownLeft">
-      <div className=" products-section   ">
+      <div className=" products-page   ">
         <img src={Legal} alt="legal paper" className="legal-paper " />
-        <div className="products-text">
+        <div className="products-body">
         <h1>Products</h1>
  
       <div className="d-flex  flex-wrap justify-content-center">

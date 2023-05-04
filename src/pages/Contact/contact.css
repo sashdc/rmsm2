@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
 
 
+.contact-fax-paper {
+    width: 100%;
+    -webkit-filter: drop-shadow(5px 15px 25px #0c0c0c)
+  
+}
+
 /* overlay about-section over current page */
-.contact-section {
+.contact-page {
  
-    position: absolute;
+    font-family: 'Fira Mono', monospace;
+    position: relative;
     display: flex;
-    /* top: 10%;
-    left: 22%; */
     width: 100vh;
-    height: auto;
+    /* height: auto; */
     z-index: 1;
-    /* tilt 5 degrees */
     transform: rotate(2deg);
     max-width: fit-content;
     
@@ -19,15 +23,20 @@
 
 
 /* overlay contact-text on contact-section */
-.contact-text {
-    
+.contact-body {
+        display: flex;
+    flex-direction: column;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    top: 5%;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
     color: rgb(7, 0, 0);
     text-align: center;
-    z-index: 2;
+    z-index: 5;
+    /* font-size: 1.6vw; */
+margin-top: 2rem;
 }
 
 .contact{
@@ -41,7 +50,7 @@ align-items: center;
 
 .contact-info{
     /* width: 100%; */
-    margin: 1rem;
+    margin: 0rem;
 }
 
 .contact-form{
@@ -52,7 +61,7 @@ align-items: center;
     @media (max-width: 1200px) {
         .contact-info{
             width: 100%;
-            margin: 0px;
+            /* margin: 0px; */
         }
         .contact{
             /* flex-direction: column; */
@@ -63,7 +72,21 @@ align-items: center;
         .contact-form{
             width: 100%;
         }
+   
 
+        .contact-fax-paper {
+            height: 90vh;
+            width: 90vw;
+            
+        }
+        .contact-body {
+            top: 0%;
+
+            width:80%;
+            height: 90%;
+            /* top: 5%; */
+            left: 10%;
+            margin-top: 0rem;
+
+        }
     }
-
-
